@@ -1,5 +1,4 @@
 {
-	//This is lua
 	"coroutine.create": {
 		"body": "coroutine.create(${1:function (${2:params}) ${3:[create function]} end})",
 		"description": "Creates a new coroutine with a function and returns an object of type 'thread'.",
@@ -62,7 +61,6 @@
 		"description": "if statement",
 		"prefix": "if"
 	},
-	// This is corona
 	"audio.dispose": {
 		"body": "audio.dispose( ${1:audioHandle} )",
 		"description": "Releases audio memory associated with the handle.",
